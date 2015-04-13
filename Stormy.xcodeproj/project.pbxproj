@@ -36,6 +36,7 @@
 		634E25BD1ADAD83C0008D9FF /* StormyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StormyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		634E25C21ADAD83C0008D9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		634E25C31ADAD83C0008D9FF /* StormyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormyTests.swift; sourceTree = "<group>"; };
+		634E25CD1ADB2AB50008D9FF /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				634E25AD1ADAD83C0008D9FF /* AppDelegate.swift */,
+				634E25CD1ADB2AB50008D9FF /* MyPlayground.playground */,
 				634E25AF1ADAD83C0008D9FF /* ViewController.swift */,
 				634E25B11ADAD83C0008D9FF /* Main.storyboard */,
 				634E25B41ADAD83C0008D9FF /* Images.xcassets */,
