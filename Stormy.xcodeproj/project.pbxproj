@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630CD4411ADED1EA00190585 /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630CD4401ADED1EA00190585 /* Current.swift */; };
 		634E25AE1ADAD83C0008D9FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634E25AD1ADAD83C0008D9FF /* AppDelegate.swift */; };
 		634E25B01ADAD83C0008D9FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634E25AF1ADAD83C0008D9FF /* ViewController.swift */; };
 		634E25B31ADAD83C0008D9FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634E25B11ADAD83C0008D9FF /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		630CD4401ADED1EA00190585 /* Current.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Current.swift; sourceTree = "<group>"; };
 		634E25A81ADAD83C0008D9FF /* Stormy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stormy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		634E25AC1ADAD83C0008D9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		634E25AD1ADAD83C0008D9FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,10 +81,11 @@
 			isa = PBXGroup;
 			children = (
 				634E25AD1ADAD83C0008D9FF /* AppDelegate.swift */,
-				634E25CD1ADB2AB50008D9FF /* MyPlayground.playground */,
+				630CD4401ADED1EA00190585 /* Current.swift */,
 				634E25AF1ADAD83C0008D9FF /* ViewController.swift */,
 				634E25B11ADAD83C0008D9FF /* Main.storyboard */,
 				634E25B41ADAD83C0008D9FF /* Images.xcassets */,
+				634E25CD1ADB2AB50008D9FF /* MyPlayground.playground */,
 				634E25B61ADAD83C0008D9FF /* LaunchScreen.xib */,
 				634E25AB1ADAD83C0008D9FF /* Supporting Files */,
 			);
@@ -163,6 +166,7 @@
 				TargetAttributes = {
 					634E25A71ADAD83C0008D9FF = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = GRFMFYY59P;
 					};
 					634E25BC1ADAD83C0008D9FF = {
 						CreatedOnToolsVersion = 6.3;
@@ -214,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				630CD4411ADED1EA00190585 /* Current.swift in Sources */,
 				634E25B01ADAD83C0008D9FF /* ViewController.swift in Sources */,
 				634E25AE1ADAD83C0008D9FF /* AppDelegate.swift in Sources */,
 			);
@@ -342,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Stormy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Stormy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +418,7 @@
 				634E25C91ADAD83C0008D9FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		634E25CA1ADAD83C0008D9FF /* Build configuration list for PBXNativeTarget "StormyTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +427,7 @@
 				634E25CC1ADAD83C0008D9FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

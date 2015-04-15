@@ -1,9 +1,9 @@
 //: Playground - noun: a place where people can play
+import Foundation
+let secondsSinceBirth = NSTimeInterval(1200000000)
+var dateOfBirth = NSDate(timeIntervalSince1970: secondsSinceBirth)
 
-import UIKit
-
-let apiKey = "0758afcef711ec228b107286e9686e36"
-let coordinates = "37.8267,-122.423"
-let baseURL = NSURL(string: "https://api.forecast.io/forecast/\(apiKey)/")
-let forecastURL = NSURL(string: coordinates, relativeToURL: baseURL)
-
+let dateFormatter = NSDateFormatter()
+dateFormatter.timeStyle = .ShortStyle
+dateFormatter.dateStyle = .MediumStyle
+var stringDate = dateFormatter.stringFromDate(dateOfBirth)

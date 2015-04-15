@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>BC472902-369B-48A0-83AE-ADD039CB7267</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Stormy</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>629D37F870F7D915E6AFE21D16ADE72F8C349779</key>
 		<string>github.com:dladowitz/Stormy.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Stormy.xcodeproj/project.xcworkspace</string>
+	<string>Stormy.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>629D37F870F7D915E6AFE21D16ADE72F8C349779</key>
