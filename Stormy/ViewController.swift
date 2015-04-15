@@ -11,6 +11,14 @@ import Foundation
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var iconView: UIImageView!
+    @IBOutlet weak var currentTimeLabel: UILabel!
+ 
+    @IBOutlet weak var temperatureLabel: UILabel!
+    @IBOutlet weak var humidityLabel: UILabel!
+    @IBOutlet weak var percipitationLabel: UILabel!
+    @IBOutlet weak var summaryLabel: UILabel!
+    
 //  https://developer.forecast.io/ reset periodically if left in git repository
     private let apiKey = "0758afcef711ec228b107286e9686e36"
 
@@ -30,9 +38,15 @@ class ViewController: UIViewController {
 //                    println(weatherDictionary)
                     
                     let currentWeather = Current(weatherDictionary: weatherDictionary)
-                    println(currentWeather.temperature)
-                    println(currentWeather.currentTime)
- 
+
+                    dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                        self.temperatureLabel.text = "\(currentWeather.temperature)"
+                        self.currentTimeLabel.text = "At \(currentWeather.currentTime!) it is"
+                        self.iconView.image = currentWeather.icon!
+                        self.humidityLabel.text = "\(currentWeather.humidity)"
+                        self.percipitationLabel.text = "\(currentWeather.precipProbability)"
+                        self.summaryLabel.text = currentWeather.summary
+                    })
                 }
 
             }

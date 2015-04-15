@@ -26,7 +26,7 @@ struct Current {
         summary                    = currentWeather["summary"] as! String
 
         let currentTimeIntValue    = currentWeather["time"] as! Int
-        let iconStringValue = currentWeather["icon"] as! String
+        let iconStringValue        = currentWeather["icon"] as! String
         currentTime                = dateStringFromUnixtime(currentTimeIntValue)
         icon                       = weatherIconFromString(iconStringValue)
     }

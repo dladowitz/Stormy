@@ -95,6 +95,14 @@
                             <constraint firstAttribute="trailingMargin" secondItem="2cg-ga-DYS" secondAttribute="trailing" constant="40" id="z8v-fm-vvR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="currentTimeLabel" destination="pKQ-RB-feH" id="3dK-d1-7X4"/>
+                        <outlet property="humidityLabel" destination="4o0-o9-Ib2" id="4x8-jW-2DA"/>
+                        <outlet property="iconView" destination="zKF-4U-y5F" id="kt2-ma-sez"/>
+                        <outlet property="percipitationLabel" destination="dVb-H3-4gI" id="WlT-tA-sgL"/>
+                        <outlet property="summaryLabel" destination="3wI-iz-1Br" id="5t0-HI-7ul"/>
+                        <outlet property="temperatureLabel" destination="uPN-9m-37t" id="5St-41-FdT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
